@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Responsive portfolio for Andres Baez",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Acbaez/Personalsite.git"
+  },
+  "author": "Andres Baez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Acbaez/Personalsite/issues"
+  },
+  "homepage": "https://github.com/Acbaez/Personalsite#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
